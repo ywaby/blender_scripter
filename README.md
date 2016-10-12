@@ -19,9 +19,9 @@ addon开发：
 ## roadmap
 1. 记录动作
 2. vsc 插件：
-    - 支持纠错
-    - 支持补充
-    - 支持调试
+    1. 支持纠错
+    2. 支持补充
+    3. 支持调试
 ## 参考
 - ide wing https://wingware.com/doc/howtos/blender
 http://jingyan.baidu.com/article/870c6fc33a6d80b03fe4bee3.html

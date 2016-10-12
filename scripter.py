@@ -3,7 +3,7 @@ bl_info = {
     "name": "scripter",
     "author": "ywaby",
     "version": (0, 0, 1),
-    "blender": (2, 77),
+    "blender": (2, 78),
     "description": "make script easier",
     "warning": "",
     "wiki_url": "http://github.com"
@@ -12,7 +12,6 @@ bl_info = {
     "support": "TESTING",
     "category": "Development"
 }
-
 import bpy
 from bpy.props import (
             StringProperty,
