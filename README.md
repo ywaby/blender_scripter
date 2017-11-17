@@ -1,31 +1,29 @@
-# 功能
-blender 脚本开发辅助工具
+use scene
+- script develop
+- addon develop
 
-## 开发环境
-    代码编辑:vsc+text edit
-    代码尝试: python console 
-    代码调试: blender 
-    info window：信息输出查看
-    system console :查看报错和调试等
-    版本控制:git 使用file link放入addon路径
-    调试:使用pdb
-    打包：使用task，如scons make 等
-情景：
-脚本开发：
+## my environment for blender script dev
+```
+system: debian testing
+code: vscode + vscode-python
+lint: pylint
+format: autopep8
+debug: ipdb/PTVSD
+version control: git
+```
 
-addon开发：
-代码尝试通过后，再写入addon文件
+tip
+- symlink code to blender addon path
+- run blender in vscode terminal
+- use python console to try code
+- package with python script
 
 ## roadmap
-1. 记录动作
-2. vsc 插件：
-    1. 支持纠错
-    2. 支持补充
-    3. 支持调试
-## 参考
-- ide wing https://wingware.com/doc/howtos/blender
-http://jingyan.baidu.com/article/870c6fc33a6d80b03fe4bee3.html
-- vsc python 调试
-https://code.visualstudio.com/docs/languages/python
-PyCharm ide
-http://jameskersey.com/2013/09/11/python_editing_for_blender_part_one
+- add pylint path
+- init project
+- record action
+- use PTVSD
+
+## reference
+- [vscode](https://code.visualstudio.com/)
+- [vscode-python](https://github.com/DonJayamanne/pythonVSCode)

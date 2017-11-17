@@ -1,0 +1,3 @@
+[Master]
+init-hook='import sys; sys.path = ["/home/ywaby/.config/blender/2.79/scripts/addons","/usr/share/blender/scripts/addons","/usr/share/blender/scripts/startup","/usr/share/blender/scripts/modules","/usr/share/blender/scripts/freestyle/modules","/usr/share/blender/scripts/addons/modules",
+"/home/ywaby/.config/blender/2.79/scripts/addons/modules"] + sys.path'
