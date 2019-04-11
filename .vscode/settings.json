@@ -1,11 +1,9 @@
-// blender envenment
 {
     "files.exclude": {
         "**/.gitignore": false,
         "**/__pycache__/": true
     },
     "python.pythonPath": "python3",
-    // get sys.path  from blender console 
     "python.autoComplete.extraPaths": [
         "/home/ywaby/.config/blender/2.79/scripts/addons",
         "/usr/share/blender/scripts/addons",
@@ -13,6 +11,7 @@
         "/usr/share/blender/scripts/modules",
         "/usr/share/blender/scripts/freestyle/modules",
         "/usr/share/blender/scripts/addons/modules",
-        "/home/ywaby/.config/blender/2.79/scripts/addons/modules"
+        "/home/ywaby/.config/blender/2.79/scripts/addons/modules",
+        "/home/ywaby/Documents/myproject/blender/scripts/fake-bpy-module/premade_modules/2.80/e5e885d0ecb9430a73e0a904cdb6035a2ef77e98"
     ]
 }
